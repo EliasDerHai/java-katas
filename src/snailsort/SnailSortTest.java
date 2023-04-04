@@ -49,7 +49,7 @@ class SnailSortTest {
         // Act
         int[] actual = SnailSort.sort(array);
         // Assert
-        int[] expectation = {1, 2, 3, 4, 6, 9, 8, 7, 4, 5};
+        int[] expectation = {1, 2, 3, 6, 9, 8, 7, 4, 5};
         assertArrayEquals(expectation, actual);
     }
 }
